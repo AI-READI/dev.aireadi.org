@@ -9,12 +9,12 @@ hero:
   text: 'test text'
   tagline: 'tagline '
   image:
-    src: https://fairdataihub.org/logo.svg
-    alt: Vitest
+    src: https://raw.githubusercontent.com/AI-READI/AI-READI-logo/main/logo/png/option2.png
+    alt: AI-READI logo
   actions:
     - theme: brand
       text: Get Started 🚀
-      link: /docs/README
+      link: /best-practices/overview
 
 features:
   - icon: 🙌
