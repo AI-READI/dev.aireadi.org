@@ -108,7 +108,7 @@ export default defineConfig({
       },
       {
         text: 'Overview',
-        link: '/docs/README.md',
+        link: '/about/README.md',
       },
       {
         text: VersionsJSON[0],
@@ -117,7 +117,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/docs': sidebarGuide(),
+      '/about': sidebarGuide(),
       '/best-practices': sidebarGuide(),
     },
 
@@ -130,80 +130,12 @@ export default defineConfig({
 
 function sidebarGuide() {
   return [
-    // {
-    //   text: '',
-    //   collapsible: false,
-    //   items: [{ text: 'Overview', link: '/best-practices/overview' }],
-    // },
-    // {
-    //   text: '',
-    //   collapsible: false,
-    //   items: [
-    //     {
-    //       text: 'Maintaining the best practices',
-    //       link: '/best-practices/maintaining-the-best-practices',
-    //     },
-    //   ],
-    // },
-    // {
-    //   text: 'Software development best practices for AI-READI',
-    //   collapsible: false,
-    //   items: [
-    //     {
-    //       text: 'Overview',
-    //       link: '/best-practices/software-development-best-practices-for-ai-readi/overview',
-    //     },
-    //     {
-    //       text: 'Project setup',
-    //       link: '/best-practices/software-development-best-practices-for-ai-readi/project-setup',
-    //     },
-    //     {
-    //       text: 'Code development',
-    //       link: '/best-practices/software-development-best-practices-for-ai-readi/code-development',
-    //     },
-    //     {
-    //       text: 'Pushing changes to GitHub repository',
-    //       link: '/best-practices/software-development-best-practices-for-ai-readi/pushing-changes-to-github-repository',
-    //     },
-    //     {
-    //       text: 'Documenting',
-    //       link: '/best-practices/software-development-best-practices-for-ai-readi/documenting',
-    //     },
-    //     {
-    //       text: 'Adding metadata',
-    //       link: '/best-practices/software-development-best-practices-for-ai-readi/adding-metadata',
-    //     },
-    //     {
-    //       text: 'Version release',
-    //       link: '/best-practices/software-development-best-practices-for-ai-readi/version-release',
-    //     },
-    //     {
-    //       text: 'Suggested automation tools/Developer experience',
-    //       link: '/best-practices/software-development-best-practices-for-ai-readi/suggested-automation-tools-developer-experience',
-    //     },
-    //   ],
-    // },
-    // {
-    //   text: '',
-    //   collapsible: false,
-    //   items: [
-    //     {
-    //       text: 'Rationales',
-    //       link: '/best-practices/rationales',
-    //     },
-    //   ],
-    // },
-    // {
-    //   text: '',
-    //   collapsible: false,
-    //   items: [
-    //     {
-    //       text: 'Monitoring compliance with the best practices',
-    //       link: '/best-practices/monitoring-compliance-with-the-best-practices',
-    //     },
-    //   ],
-    // },
-
+    {
+      text: 'About',
+      collapsible: true,
+      collapsed: true,
+      items: [{ text: 'README', link: '/about/README.md' }],
+    },
     {
       text: 'Best practices',
       collapsible: true,
