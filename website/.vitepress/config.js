@@ -98,7 +98,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AI-READI' },
-      { icon: 'twitter', link: 'https://twitter.com/fairdataihub' },
+      // { icon: 'twitter', link: 'https://twitter.com/fairdataihub' },
     ],
 
     nav: [
