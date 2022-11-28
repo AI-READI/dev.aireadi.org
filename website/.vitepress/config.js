@@ -102,18 +102,18 @@ export default defineConfig({
     ],
 
     nav: [
-      {
-        text: 'Home',
-        link: '/',
-      },
-      {
-        text: 'Overview',
-        link: '/about/README.md',
-      },
-      {
-        text: VersionsJSON[0],
-        items: OtherVersions,
-      },
+      // {
+      //   text: 'Home',
+      //   link: '/',
+      // },
+      // {
+      //   text: 'Overview',
+      //   link: '/about/README.md',
+      // },
+      // {
+      //   text: VersionsJSON[0],
+      //   items: OtherVersions,
+      // },
     ],
 
     sidebar: {
@@ -122,7 +122,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Released under the Apache-2.0 License.',
+      message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present | AI-READI',
     },
   },
