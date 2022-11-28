@@ -64,7 +64,7 @@ Whenever a change in build, release, or development instructions occurs update t
 git clone https://github.com/AI-READI/software-best-practices.git
 ```
 
-- Get the project running locally using the [README](/docs/README.md) instructions
+- Get the project running on your local machine
 - Create a separate branch based off `main`
 - Make your changes to the project and commit them to the local repository
 - Create a PR to the main branch with [@bvhpatel](https://github.com/bvhpatel) and/or [@megasanjay](https://github.com/megasanjay) as reviewers
