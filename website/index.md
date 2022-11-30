@@ -6,7 +6,7 @@ titleTemplate: AI-READI Software Development Best Practices
 
 hero:
   name: Software Development Best Practices...
-  tagline: ...for AI-READI projects
+  tagline: ...for the AI-READI project
 
   image:
     src: https://raw.githubusercontent.com/AI-READI/AI-READI-logo/main/logo/png/option2.png
@@ -20,13 +20,13 @@ hero:
       text: View on GitHub
       link: https://github.com/AI-READI/software-dev-best-practices
 features:
+  - icon: ⚡
+    title: Learn fast
+    details: Get up to speed with our software development practices so you can start contributing
   - icon: 🙌
     title: Work together
-    details: Complete your projects without interruptions and shoulder tapping.
-  - icon: ⚡
-    title: Get a clear view
-    details: No more hunting around for documents in your inbox or shared folders.
-  - icon: 🌠
-    title: Stay up to date
-    details: Get notified when new documents are available.
+    details: Develop following standardized practices to facilitate collaborations
+  - icon: 🧠
+    title: Work smart
+    details: Find code snippets and automation tools to facilitate your work
 ---
