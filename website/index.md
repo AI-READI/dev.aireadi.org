@@ -22,11 +22,11 @@ hero:
 features:
   - icon: ⚡
     title: Learn fast
-    details: Get up to speed with our software development practices so you can start contributing
+    details: Get up to speed with our software development practices so you can start contributing faster.
   - icon: 🙌
     title: Work together
-    details: Develop following standardized practices to facilitate collaborations
+    details: Use standard tools and practices to make it easier to collaborate with other AI-READI team members.
   - icon: 🧠
     title: Work smart
-    details: Find code snippets and automation tools to facilitate your work
+    details: Use our best practices, code snippets and automation tools to make your work more efficient and effective.
 ---
