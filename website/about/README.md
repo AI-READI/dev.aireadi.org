@@ -8,13 +8,13 @@ description: How to use the documentation site
 
 ## ⚠️ Prerequisites
 
-This project uses `Yarn` as package manager.
+This project uses [`Yarn`](https://yarnpkg.com/) as package manager.
 
 ```sh
 npm install --global yarn
 ```
 
-If you already have a conda environment on your machine, you can install the dependencies with:
+If you already have a `Anaconda` environment on your machine, you can install the dependencies with:
 
 ```sh
 conda install -c conda-forge yarn nodejs
@@ -25,13 +25,13 @@ conda install -c conda-forge yarn nodejs
 Clone the project
 
 ```sh
-https://github.com/AI-READI/software-best-practices.git
+https://github.com/AI-READI/dev.aireadi.org.git
 ```
 
 Go to the project directory
 
 ```sh
-cd software-best-practices
+cd dev.aireadi.org
 ```
 
 Install dependencies
@@ -53,22 +53,6 @@ Use this step to build a local production version of the site. Use `serve` to pr
 ```sh
 yarn docs:build
 ```
-
-## Updating the documentation
-
-Whenever a change in build, release, or development instructions occurs update the documentation. To do this follow the below steps:
-
-- Clone the [software-best-practices](https://github.com/AI-READI/software-best-practices) repository from GitHub
-
-```sh
-git clone https://github.com/AI-READI/software-best-practices.git
-```
-
-- Get the project running on your local machine
-- Create a separate branch based off `main`
-- Make your changes to the project and commit them to the local repository
-- Create a PR to the main branch with [@bvhpatel](https://github.com/bvhpatel) and/or [@megasanjay](https://github.com/megasanjay) as reviewers
-- After approval merge the PR into `main`
 
 ## Tech Stack
 

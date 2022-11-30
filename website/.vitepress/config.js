@@ -87,29 +87,35 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    // logo: "https://fairdataihub.org/logo.svg",
-    // siteTitle: false,
-
     editLink: {
       pattern:
-        'https://github.com/AI-READI/software-best-practices/edit/main/website/:path',
+        'https://github.com/AI-READI/dev.aireadi.org/edit/main/website/:path',
       text: 'Edit this page on GitHub',
     },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AI-READI' },
-      // { icon: 'twitter', link: 'https://twitter.com/fairdataihub' },
+      {
+        icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10"/><path stroke-linecap="round" stroke-linejoin="round" d="M13 2.05S16 6 16 12m-5 9.95S8 18 8 12c0-6 3-9.95 3-9.95M2.63 15.5H12m-9.37-7h18.74"/><path d="M21.879 17.917c.494.304.463 1.043-.045 1.101l-2.567.291l-1.151 2.312c-.228.459-.933.234-1.05-.334l-1.255-6.116c-.099-.48.333-.782.75-.525l5.318 3.271Z" clip-rule="evenodd"/></g></svg>',
+        },
+        link: 'https://aireadi.org',
+      },
     ],
 
     nav: [
-      // {
-      //   text: 'Home',
-      //   link: '/',
-      // },
-      // {
-      //   text: 'Overview',
-      //   link: '/about/README.md',
-      // },
+      {
+        text: 'Home',
+        link: '/',
+      },
+      {
+        text: 'About',
+        link: '/about/README',
+      },
+      {
+        text: 'Overview',
+        link: '/best-practices/software-development-best-practices-for-ai-readi/overview',
+      },
       // {
       //   text: VersionsJSON[0],
       //   items: OtherVersions,
@@ -140,11 +146,6 @@ function sidebarGuide() {
       text: 'Best practices',
       collapsible: true,
       items: [
-        { text: 'Overview', link: '/best-practices/overview' },
-        {
-          text: 'Maintaining the best practices',
-          link: '/best-practices/maintaining-the-best-practices',
-        },
         {
           text: 'Software development best practices for AI-READI',
           link: '/best-practices/software-development-best-practices-for-ai-readi/overview',
