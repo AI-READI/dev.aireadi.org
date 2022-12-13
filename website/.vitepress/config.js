@@ -116,6 +116,10 @@ export default defineConfig({
         text: 'Overview',
         link: '/best-practices/software-development-best-practices-for-ai-readi/overview',
       },
+      {
+        text: 'Bridge2AI',
+        link: 'https://commonfund.nih.gov/bridge2ai',
+      },
       // {
       //   text: VersionsJSON[0],
       //   items: OtherVersions,
