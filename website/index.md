@@ -6,7 +6,7 @@ titleTemplate: AI-READI Software Development Best Practices
 
 hero:
   name: Software Development Best Practices...
-  tagline: ...for AI-READI, a data generation project of the NIH Bridge2AI program
+  tagline: ...for AI-READI, a data generation project of the NIH-funded Bridge2AI program
 
   image:
     src: https://raw.githubusercontent.com/AI-READI/AI-READI-logo/main/logo/png/option2.png
