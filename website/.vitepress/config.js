@@ -145,7 +145,10 @@ function sidebarGuide() {
       text: 'About',
       collapsible: true,
       collapsed: true,
-      items: [{ text: 'README', link: '/about/README.md' }],
+      items: [
+        { text: 'README', link: '/about/README.md' },
+        { text: 'Overview', link: '/about/overview.md' },
+      ],
     },
     {
       text: 'Best practices',
